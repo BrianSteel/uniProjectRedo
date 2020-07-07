@@ -1,0 +1,12 @@
+canvas{
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    border: 1px solid;
+    
+}
+
+footer{
+    position: relative;
+    top: 700px;
+}
