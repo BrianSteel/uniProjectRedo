@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    color: #f69e7b;
+}
+footer {
+    background: #393e46;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color:#f4f6ff;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer .container {
+    display: flex;
+    align-items: start;
+}
+
+footer .container .items {
+    padding: 0.5rem;
+    margin:0.5rem;
+    width: 23rem;
+}
+
+footer .container .items h2 {
+    font-weight: 900;
+}
+
+footer .container .items .footer-icons{
+    font-size: 1.6rem;
+    color:#f69e7b;
+    padding: 0.3rem;
+}
+footer .container .items .footer-icons:hover{
+    color:#c4fb6d;
+   /*  font-size: 1.8rem; */
+    transition: all 400ms;
+    
+}
+footer .container p span {
+    color: #1b6ca8;
+}
+
+footer .form-element {
+    display: flex;
+    align-items: center;
+}
+
+footer .form-element i {
+    font-size: 2rem;
+}
+
+footer .form-element input {
+    background: transparent;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    width: 14rem;
+    color: white;
+    margin-right: 0.4rem;
+}
+
+footer .container .items p a{
+    color: #e8505b;
+    text-decoration: none;
+    font-family:cursive;
+    
+}
+
+footer .copyright .text-gray {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .copyright .text-gray a{
+    color: #01a9b4;
+    font-size: 1.2rem;
+}
+
+
+footer .move-up i{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    color: initial;
+    font-size: 4rem;
+}
